@@ -6,5 +6,24 @@
 body {
   font-size: 16px;
   background-color: #fff;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.nav-link-active {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
